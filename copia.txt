@@ -1,0 +1,3 @@
+BBDD=mongodb+srv://gqlUser:uioW99..gqlUser@clic2orderdb.c7r0de1.mongodb.net/clic2orderdb
+mongodb+srv://click2order:<password>@clic2orderdb.i3zao1t.mongodb.net/?retryWrites=true&w=majo
+SECRET_KEY=clic2orderdb
