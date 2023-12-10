@@ -16,19 +16,7 @@ async function getAllProductsFromREST(url, clcodigo) {
     }
 }
 
-async function getDiscounts(discountUrl, prolistaprecio) {
-    try {
-        const fullUrl = `${discountUrl}?prolistaprecio=${prolistaprecio}`;
-        const response = await axios.get(fullUrl, { httpsAgent });
-        return response.data;
-    } catch (error) {
-        console.error('Error al realizar la solicitud para obtener descuentos:', error.message);
-        throw new Error('Error al obtener descuentos de la API');
-    }
-}
-
 module.exports = {
-    getAllProductsFromREST,
-    getDiscounts
+    getAllProductsFromREST
 };
 
